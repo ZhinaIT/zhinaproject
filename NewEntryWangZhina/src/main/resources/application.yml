@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: newentry_wangzhina
+    url: jdbc:mysql://8.136.182.146:3306/NewEntry_WangZhina
+    username: root
+    password: carlsberg
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: 8.136.182.146
+    port: 6379
+    password: carlsberg
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
